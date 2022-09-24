@@ -1,0 +1,5 @@
+#!/bin/sh
+
+for a in $(seq 1 5000); do
+        $1 > /dev/null
+done
